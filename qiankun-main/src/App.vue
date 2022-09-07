@@ -1,7 +1,7 @@
 <template>
   <h3>APP</h3>
-  <div @click="goChildApp(1)">ChildVueApp</div>
-  <div @click="goChildApp(2)">ChildReactApp</div>
+  <button @click="goChildApp(1)">GoChildVueApp</button>
+  <button @click="goChildApp(2)">GoChildReactApp</button>
   <router-view></router-view>
   <div id="vue"></div>
   <div id="react"></div>

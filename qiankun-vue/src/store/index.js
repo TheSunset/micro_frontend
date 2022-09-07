@@ -2,7 +2,9 @@ import { createStore } from 'vuex';
 import count from './count';
 
 export default createStore({
-  state: {},
+  state: {
+    name: "eric"
+  },
   mutations: {},
   actions: {},
   getters: {},

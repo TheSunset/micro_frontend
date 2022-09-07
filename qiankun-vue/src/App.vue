@@ -4,10 +4,17 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <span style="color: red">{{$store.state.name || "---"}}</span>
     <router-view/>
   </div>
 </template>
-
+<script>
+  export default {
+    mounted() {
+      console.log(this.$store, "EEE");
+    }
+  }
+</script>
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

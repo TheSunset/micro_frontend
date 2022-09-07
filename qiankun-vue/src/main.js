@@ -12,6 +12,7 @@ let history = null;
 
 function render(props = {}) {
   const { container } = props;
+  console.log(container, "container", props);
   history = createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/app-vue' : '/');
   router = createRouter({
     history,
@@ -20,6 +21,7 @@ function render(props = {}) {
 
   instance = createApp(App);
   instance.use(router);
+  console.log(store.state.name = props.a);
   instance.use(store);
   instance.mount(container ? container.querySelector('#app') : '#app');
 }
