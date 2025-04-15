@@ -50,6 +50,7 @@ function storeTest(props) {
 }
 
 export async function mount(props) {
+  console.log('2121212');
   console.log(props)
   storeTest(props);
   render(props);
