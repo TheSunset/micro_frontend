@@ -16,6 +16,11 @@ const routes = [
 		name: "about",
 		component: () => import(/* webpackChunkName: "about" */ "@/views/About"),
 	},
+	{
+    path: "/:notFound(.*)",
+    hidden: true,
+    component: () => import("@/views/not-found/NotFound.vue"),
+  },
 ];
 
 export default routes;
