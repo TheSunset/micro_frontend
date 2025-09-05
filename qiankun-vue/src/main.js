@@ -5,6 +5,8 @@ import App from './App.vue';
 import routes from './router';
 import store from './store';
 
+import '@/assets/css/font-awesome.css';
+
 let router = null;
 let instance = null;
 let history = null;

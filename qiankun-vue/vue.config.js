@@ -6,6 +6,7 @@ function resolve(dir) {
 }
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? '/app-vue/' : '/',
   outputDir: 'dist',
   assetsDir: 'static',
   filenameHashing: true,

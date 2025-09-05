@@ -1,6 +1,7 @@
 <template>
   <div class="about-content">
     <h1>This is about page</h1>
+    <i class="fa fa-user"></i>
   </div>
 </template>
 
