@@ -1,6 +1,5 @@
 {
   "name": "qiankun-react",
-  "homepage": "/app-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

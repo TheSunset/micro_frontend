@@ -11,7 +11,6 @@ let router = null;
 let instance = null;
 let history = null;
 
-
 function render(props = {}) {
   const { container } = props;
   console.log(container, "container", props);

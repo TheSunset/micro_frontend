@@ -23,14 +23,14 @@ if (process.env.NODE_ENV === "production") {
   apps = [
     {
       name: "sunset_vue_app", 
-      entry: "/app-vue", 
+      entry: "/vue", 
       container: "#vue", 
       activeRule: "/app-vue", 
       props: { a: 10086 }, 
     },
     {
       name: "sunset_react_app",
-      entry: "/app-react", 
+      entry: "/react", 
       container: "#react",
       activeRule: "/app-react",
     },
